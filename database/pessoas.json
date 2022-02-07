@@ -1,20 +1,5 @@
 [
     {
-        "nome": "Gustavo Welter",
-        "cpf": "831.950.240-39",
-        "casado": true,
-        "filhos": [
-            "Mariana",
-            "Natalia"
-        ]
-    },
-    {
-        "nome": "André",
-        "cpf": "888.999.240-39",
-        "casado": true,
-        "filhos": []
-    },
-    {
         "nome": "Antônio",
         "cpf": "777.777.777-77",
         "casado": false,
@@ -42,9 +27,15 @@
     {
         "nome": "Wendel",
         "cpf": "888.888.888-88",
+<<<<<<< HEAD
         "casado": false,
         "filhos": [
             "Joao",
+=======
+        "casado": true,
+        "filhos": [
+            "João",
+>>>>>>> 38c7e5aaad45140981214d1e12f96cc09846196a
             "Maria"
         ]
     }

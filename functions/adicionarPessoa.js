@@ -18,4 +18,12 @@ pessoas.push(pessoa);
 fs.writeFileSync('pessoas.json', JSON.stringify(pessoas,null,4))
 
 // Passo 5: Mostrar o array de pessoas no dormarto de tabela
+<<<<<<< HEAD:app.js
 console.table(pessoas);
+=======
+/*
+Criar um arquivo remover.js
+Esse script deve receber um número como parâmetro
+e deve remover a pessoa da posição indicada pelo número
+*/
+>>>>>>> 38c7e5aaad45140981214d1e12f96cc09846196a:functions/adicionarPessoa.js

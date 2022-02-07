@@ -21,3 +21,56 @@
     "valorTotal": 390
 }
 
+<<<<<<< HEAD
+=======
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+{
+    "numeroNotaFiscal": "012554124512",
+    "cnpjEmissor": "066.121.124.550/11",
+    "listaDeProdutos": {
+        "produtoA": {
+            "preco": 15.99,
+            "fruta": {
+                "nome":"maça",
+                "tipo": "pera"
+            }
+        },
+        "produtoB": "5,99" {
+            "massas": "massa para lasanha" {
+                "marca": "maria"
+            }
+        },
+    },
+    "valorTotalDaNota": "21,98"
+}
+
+
+/*
+    Número da nota,
+    CNPJ do emissor
+    Lista de produtos com seus nomes e respectivos preços
+    Valor total da nota
+*/
+>>>>>>> 38c7e5aaad45140981214d1e12f96cc09846196a
