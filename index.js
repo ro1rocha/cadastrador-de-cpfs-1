@@ -1,22 +1,16 @@
-const CPF = require('cpf');
-const fs = require('fs');
+// Importar o express
+const express = require('express');
 
-// Imprime uma mensagem de boas vindas
-console.log("Seja bem vindo ao cadastrador de CPFs");
+// Criar um sevidor com o express
+const servidor = express();
 
-// 1 - Capturar o CPF digitado pelo usuário
-const cpf = process.argv[2];
+// Definir uma rota e associar a ela a execução de uma função
+servidor.get('/pessoas', (req, res) =>{
+    console.log("Tentaram acessar a rota /pessoas.")
+    res.send("Lista de pessoas: Theo, Afredo, Silvia, etc")
+})
 
-// 2 - Validar o CPF...
-let cpfValido = CPF.isValid(cpf);
-
-// 3 - Caso a informação seja um CPF válido, salvar no arquivo dados.txt
-//     caso contrário, exibir mensagem de erro:
-if(cpfValido){
-    console.log("CPF Válido! Salvando...");
-    fs.writeFileSync("dados.txt", cpf + "\n", {flag:'a'});
-} else {
-    console.log("CPF inválido. Digite direito!");
-}
-
-console.log("FIM");
+// Levantar o nosso servidor
+servidor.listen(3000, ()=>{
+    console.log("Servidor escutando na porta 3000")
+});

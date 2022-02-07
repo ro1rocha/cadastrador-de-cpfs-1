@@ -18,4 +18,4 @@ pessoas.push(pessoa);
 fs.writeFileSync('pessoas.json', JSON.stringify(pessoas,null,4))
 
 // Passo 5: Mostrar o array de pessoas no dormarto de tabela
-
+console.table(pessoas);
